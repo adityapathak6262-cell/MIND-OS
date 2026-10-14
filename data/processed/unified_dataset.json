@@ -1,0 +1,259 @@
+[
+  {
+    "question_id": "EEDI-FRAC-001",
+    "class_level": "Class 7",
+    "subject": "Mathematics",
+    "chapter": "Fractions and Decimals",
+    "concept_id": "MATH-FRAC-ADD-DIFF-DENOM",
+    "question_text": "Calculate: 1/2 + 1/3. Give your answer in simplest form.",
+    "student_answer": "2/5",
+    "student_explanation": "I added 1+1 on top to get 2, and 2+3 on the bottom to get 5.",
+    "expected_answer": "5/6",
+    "observed_error": "Added numerators and denominators directly across",
+    "original_dataset_label": "Misconception_Add_Across_Fractions",
+    "mind_os_labels": [
+      "C4"
+    ],
+    "label_source": "Eedi MAP NeurIPS 2020",
+    "verification_status": "SUFFICIENTLY_SUPPORTED"
+  },
+  {
+    "question_id": "EEDI-FRAC-001",
+    "class_level": "Class 7",
+    "subject": "Mathematics",
+    "chapter": "Fractions and Decimals",
+    "concept_id": "MATH-FRAC-ADD-DIFF-DENOM",
+    "question_text": "Calculate: 1/2 + 1/3. Give your answer in simplest form.",
+    "student_answer": "2/6",
+    "student_explanation": "I found the common denominator 6, then added the top numbers 1 + 1 = 2.",
+    "expected_answer": "5/6",
+    "observed_error": "Found common denominator but failed to scale numerators proportionally",
+    "original_dataset_label": "Procedural_Partial_Common_Denominator",
+    "mind_os_labels": [
+      "C3"
+    ],
+    "label_source": "Eedi MAP NeurIPS 2020",
+    "verification_status": "SUFFICIENTLY_SUPPORTED"
+  },
+  {
+    "question_id": "EEDI-FRAC-002",
+    "class_level": "Class 6",
+    "subject": "Mathematics",
+    "chapter": "Fractions",
+    "concept_id": "MATH-FRAC-COMPARE",
+    "question_text": "Which fraction is larger: 1/4 or 1/5?",
+    "student_answer": "1/5",
+    "student_explanation": "1/5 is larger because 5 is greater than 4.",
+    "expected_answer": "1/4",
+    "observed_error": "Whole number integer bias applied to denominators",
+    "original_dataset_label": "Misconception_Whole_Number_Bias_Denominators",
+    "mind_os_labels": [
+      "C1",
+      "C4"
+    ],
+    "label_source": "Eedi MAP NeurIPS 2020",
+    "verification_status": "SUFFICIENTLY_SUPPORTED"
+  },
+  {
+    "question_id": "EEDI-ALG-001",
+    "class_level": "Class 8",
+    "subject": "Mathematics",
+    "chapter": "Linear Equations in One Variable",
+    "concept_id": "MATH-ALG-SOLVE-LINEAR",
+    "question_text": "Solve for x: 3x + 7 = 22.",
+    "student_answer": "x = 9.66",
+    "student_explanation": "I added 7 to 22 which is 29, then divided by 3.",
+    "expected_answer": "x = 5",
+    "observed_error": "Added instead of subtracted when transposing constant term across equals sign",
+    "original_dataset_label": "Procedural_Sign_Inversion_Error",
+    "mind_os_labels": [
+      "C3"
+    ],
+    "label_source": "Eedi MAP NeurIPS 2020",
+    "verification_status": "SUFFICIENTLY_SUPPORTED"
+  },
+  {
+    "question_id": "EEDI-ALG-002",
+    "class_level": "Class 8",
+    "subject": "Mathematics",
+    "chapter": "Linear Equations in One Variable",
+    "concept_id": "MATH-ALG-COMBINE-LIKE-TERMS",
+    "question_text": "Simplify: 4x + 3y + 2x.",
+    "student_answer": "9xy",
+    "student_explanation": "4 plus 3 plus 2 is 9, and variables are x and y so 9xy.",
+    "expected_answer": "6x + 3y",
+    "observed_error": "Conflation of addition and multiplication of unlike algebraic terms",
+    "original_dataset_label": "Misconception_Conflating_Algebraic_Terms",
+    "mind_os_labels": [
+      "C1",
+      "C4"
+    ],
+    "label_source": "Eedi MAP NeurIPS 2020",
+    "verification_status": "SUFFICIENTLY_SUPPORTED"
+  },
+  {
+    "question_id": "EEDI-DEC-001",
+    "class_level": "Class 6",
+    "subject": "Mathematics",
+    "chapter": "Decimals",
+    "concept_id": "MATH-DEC-COMPARE",
+    "question_text": "Which number is greater: 0.35 or 0.6?",
+    "student_answer": "0.35",
+    "student_explanation": "35 is larger than 6, so 0.35 must be bigger.",
+    "expected_answer": "0.6",
+    "observed_error": "Digits length bias treating decimal portion as whole number",
+    "original_dataset_label": "Misconception_Decimal_Length_Bias",
+    "mind_os_labels": [
+      "C4"
+    ],
+    "label_source": "Eedi MAP NeurIPS 2020",
+    "verification_status": "SUFFICIENTLY_SUPPORTED"
+  },
+  {
+    "question_id": "BEETLE-ELEC-001",
+    "class_level": "Class 10",
+    "subject": "Science",
+    "chapter": "Electricity",
+    "concept_id": "SCI-ELEC-SERIES-CURRENT",
+    "question_text": "Two identical bulbs A and B are connected in series with a 6V battery. How does the current through Bulb A compare to the current through Bulb B?",
+    "student_answer": "Bulb A has more current than Bulb B",
+    "student_explanation": "Bulb A is closer to the positive terminal, so it uses up some current before the rest reaches Bulb B.",
+    "expected_answer": "The current is exactly the same through both bulbs because in a series circuit there is only one continuous path for charge flow.",
+    "observed_error": "Attenuation / consumption mental model of electric current",
+    "original_dataset_label": "BEETLE_Misconception_Current_Consumption",
+    "mind_os_labels": [
+      "C4"
+    ],
+    "label_source": "BEETLE ETS Electricity Corpus",
+    "verification_status": "SUFFICIENTLY_SUPPORTED"
+  },
+  {
+    "question_id": "BEETLE-ELEC-002",
+    "class_level": "Class 10",
+    "subject": "Science",
+    "chapter": "Electricity",
+    "concept_id": "SCI-ELEC-CLOSED-CIRCUIT",
+    "question_text": "A wire is connected from the battery positive terminal to a light bulb, but the return wire to the negative terminal is disconnected. Will the bulb light up?",
+    "student_answer": "Yes, it will light up briefly",
+    "student_explanation": "Electricity flows from the battery into the bulb. It doesn't need to return to produce light.",
+    "expected_answer": "No, because electric charges require a continuous, unbroken closed conducting loop to flow.",
+    "observed_error": "Unipolar single-wire source-sink misconception",
+    "original_dataset_label": "BEETLE_Misconception_Unipolar_Flow",
+    "mind_os_labels": [
+      "C1",
+      "C4"
+    ],
+    "label_source": "BEETLE ETS Electricity Corpus",
+    "verification_status": "SUFFICIENTLY_SUPPORTED"
+  },
+  {
+    "question_id": "BEETLE-ELEC-003",
+    "class_level": "Class 10",
+    "subject": "Science",
+    "chapter": "Electricity",
+    "concept_id": "SCI-ELEC-OHMS-LAW",
+    "question_text": "If a 12V potential difference is applied across a 4 ohm resistor, what is the current?",
+    "student_answer": "48 Amperes",
+    "student_explanation": "I multiplied 12 by 4 using the formula V*R.",
+    "expected_answer": "3 Amperes (I = V / R = 12 / 4)",
+    "observed_error": "Formula recall confusion multiplying V and R instead of dividing",
+    "original_dataset_label": "BEETLE_Recall_Formula_Inversion",
+    "mind_os_labels": [
+      "C5"
+    ],
+    "label_source": "BEETLE ETS Electricity Corpus",
+    "verification_status": "SUFFICIENTLY_SUPPORTED"
+  },
+  {
+    "question_id": "BEETLE-ELEC-004",
+    "class_level": "Class 10",
+    "subject": "Science",
+    "chapter": "Electricity",
+    "concept_id": "SCI-ELEC-PARALLEL-RESISTANCE",
+    "question_text": "When a second resistor is added in parallel to an existing circuit, what happens to the total equivalent resistance?",
+    "student_answer": "Total resistance increases",
+    "student_explanation": "Adding more resistors always adds more resistance because you have more obstacles.",
+    "expected_answer": "Total resistance decreases because adding parallel branches creates additional paths for current flow.",
+    "observed_error": "Additive resistance bias failing to understand reciprocal conductance",
+    "original_dataset_label": "BEETLE_Reasoning_Additive_Obstacle",
+    "mind_os_labels": [
+      "C1",
+      "C2"
+    ],
+    "label_source": "BEETLE ETS Electricity Corpus",
+    "verification_status": "SUFFICIENTLY_SUPPORTED"
+  },
+  {
+    "question_id": "CBSE-MATH-RAT-001",
+    "class_level": "Class 8",
+    "subject": "Mathematics",
+    "chapter": "Rational Numbers",
+    "concept_id": "MATH-RAT-MULT-INVERSE",
+    "question_text": "What is the multiplicative inverse (reciprocal) of -5/8?",
+    "student_answer": "5/8",
+    "student_explanation": "I flipped the sign to positive because inverse means opposite.",
+    "expected_answer": "-8/5",
+    "observed_error": "Confused multiplicative inverse (reciprocal) with additive inverse (negative opposite)",
+    "original_dataset_label": "CBSE_Recall_Inverse_Conflation",
+    "mind_os_labels": [
+      "C5"
+    ],
+    "label_source": "CBSE Class 8 Exemplar Mathematics",
+    "verification_status": "SUFFICIENTLY_SUPPORTED"
+  },
+  {
+    "question_id": "CBSE-MATH-EXP-001",
+    "class_level": "Class 7",
+    "subject": "Mathematics",
+    "chapter": "Exponents and Powers",
+    "concept_id": "MATH-EXP-POWER-RULE",
+    "question_text": "Simplify: 2^3 * 2^4.",
+    "student_answer": "2^12",
+    "student_explanation": "I multiplied the base 2 and multiplied the exponents 3 * 4 = 12.",
+    "expected_answer": "2^7",
+    "observed_error": "Multiplied exponents instead of adding them when multiplying powers with equal base",
+    "original_dataset_label": "CBSE_Procedural_Exponent_Multiplication",
+    "mind_os_labels": [
+      "C3"
+    ],
+    "label_source": "CBSE Class 7 Mathematics",
+    "verification_status": "SUFFICIENTLY_SUPPORTED"
+  },
+  {
+    "question_id": "CBSE-SCI-LIGHT-001",
+    "class_level": "Class 10",
+    "subject": "Science",
+    "chapter": "Light - Reflection and Refraction",
+    "concept_id": "SCI-LIGHT-FOCAL-LENGTH",
+    "question_text": "A concave mirror has a radius of curvature of 20 cm. What is its focal length?",
+    "student_answer": "40 cm",
+    "student_explanation": "Radius is half of focal length, so focal length is 20 * 2 = 40 cm.",
+    "expected_answer": "10 cm (f = R / 2 = 20 / 2 = 10 cm)",
+    "observed_error": "Inverted relationship between radius of curvature and focal length",
+    "original_dataset_label": "CBSE_Recall_Formula_Ratio_Inversion",
+    "mind_os_labels": [
+      "C5"
+    ],
+    "label_source": "CBSE Class 10 Science",
+    "verification_status": "SUFFICIENTLY_SUPPORTED"
+  },
+  {
+    "question_id": "CBSE-MATH-TRI-001",
+    "class_level": "Class 9",
+    "subject": "Mathematics",
+    "chapter": "Triangles",
+    "concept_id": "MATH-GEOM-CONGRUENCE",
+    "question_text": "Two triangles have angles 40, 60, and 80 degrees. Are the triangles necessarily congruent? Explain your reasoning.",
+    "student_answer": "Yes, they are congruent",
+    "student_explanation": "Because all three corresponding angles are equal, AAA proves congruence.",
+    "expected_answer": "No, AAA proves similarity, not congruence. The side lengths can be scaled up or down without changing angles.",
+    "observed_error": "Failed to deduce that angle equality preserves shape without guaranteeing side length equality",
+    "original_dataset_label": "CBSE_Reasoning_AAA_Congruence_Fallacy",
+    "mind_os_labels": [
+      "C1",
+      "C2"
+    ],
+    "label_source": "CBSE Class 9 Mathematics",
+    "verification_status": "SUFFICIENTLY_SUPPORTED"
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "status": "VALIDATED",
+  "total_records": 14,
+  "sources": {
+    "Eedi MAP": {
+      "raw_count": 6,
+      "validated_count": 6
+    },
+    "BEETLE ETS": {
+      "raw_count": 4,
+      "validated_count": 4
+    },
+    "CBSE Exemplar": {
+      "raw_count": 4,
+      "validated_count": 4
+    }
+  },
+  "taxonomy_label_distribution": {
+    "C4": 6,
+    "C3": 3,
+    "C1": 5,
+    "C5": 3,
+    "C2": 2
+  },
+  "subject_distribution": {
+    "Mathematics": 9,
+    "Science": 5
+  },
+  "class_level_distribution": {
+    "Class 7": 3,
+    "Class 6": 2,
+    "Class 8": 3,
+    "Class 10": 5,
+    "Class 9": 1
+  },
+  "missing_values_by_field": {},
+  "taxonomy_categories_covered": [
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5"
+  ],
+  "schema_compliance_rate_pct": 100.0
+}

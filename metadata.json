@@ -1,0 +1,6 @@
+{
+  "name": "MIND-OS — Learning Diagnostic Platform",
+  "description": "Evidence-based AI learning diagnostic platform that identifies why students struggle by detecting conceptual gaps, logical reasoning errors, procedural mistakes, misconceptions, and recall gaps.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

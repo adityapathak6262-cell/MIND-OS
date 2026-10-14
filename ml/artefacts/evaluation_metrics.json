@@ -1,0 +1,116 @@
+{
+  "model_version": "v1.2.0-baseline",
+  "train_samples": 36,
+  "test_samples": 28,
+  "unseen_test_questions": [
+    "CBSE-MATH-EXP-001",
+    "CBSE-MATH-TRI-001",
+    "CBSE-SCI-LIGHT-001",
+    "EEDI-DEC-001",
+    "EEDI-FRAC-001",
+    "EEDI-FRAC-002"
+  ],
+  "models": {
+    "logistic_regression": {
+      "macro_f1": 0.222,
+      "per_class": {
+        "C1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 8
+        },
+        "C2": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 4
+        },
+        "C3": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1_score": 0.667,
+          "support": 8
+        },
+        "C4": {
+          "precision": 0.667,
+          "recall": 0.333,
+          "f1_score": 0.444,
+          "support": 12
+        },
+        "C5": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1_score": 0.0,
+          "support": 4
+        }
+      },
+      "confusion_matrices": {
+        "C1": [
+          [
+            20,
+            0
+          ],
+          [
+            8,
+            0
+          ]
+        ],
+        "C2": [
+          [
+            24,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "C3": [
+          [
+            20,
+            0
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "C4": [
+          [
+            14,
+            2
+          ],
+          [
+            8,
+            4
+          ]
+        ],
+        "C5": [
+          [
+            24,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ]
+      },
+      "brier_calibration_scores": {
+        "C1": 0.1873,
+        "C2": 0.1156,
+        "C3": 0.1543,
+        "C4": 0.2376,
+        "C5": 0.1021
+      }
+    },
+    "linear_svm": {
+      "macro_f1": 0.273
+    },
+    "rule_based_baseline": {
+      "macro_f1": 0.735,
+      "description": "Deterministic pattern & regex distractor matching"
+    }
+  }
+}
